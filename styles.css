@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: navy;
+}
+
+.container{
+    width: 70%;
+    height: 100vh;
+    padding: 2rem 2rem;
+    background-color: white;
+    margin: auto;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+}
+
+.containerbuttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+}
+.homescoreboard {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 8rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 25px;
+}
+
+.visitorscoreboard{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 8rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 25px;
+}
+
+.score{
+    font-family: '60s Scoreboard', sans-serif;
+    margin: auto;
+}
+
+.newgame button{
+    width: 10rem;
+    height: 5rem;
+}
+
+.newgame button:hover{
+    margin-top: 1rem;
+    font-size: larger;
+    width: 10rem;
+    height: 5rem;
+    background-color: white;
+    color: black;
+}
+
+button { 
+    margin-top: 1rem;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    margin-top: 1rem;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
